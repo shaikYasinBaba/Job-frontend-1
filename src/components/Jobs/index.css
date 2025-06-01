@@ -1,0 +1,36 @@
+.jobs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .job-card {
+      flex: 1 1 100%;
+    }
+  }
+  .jobs-wrapper {
+    padding: 20px;
+  }
+  
+  .search-bar {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .search-bar input {
+    width: 60%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .search-bar input {
+      width: 90%;
+    }
+  }
+  

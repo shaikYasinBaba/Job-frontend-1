@@ -1,0 +1,39 @@
+.job-card {
+    background-color: #f8f9fa; /* light gray */
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 15px;
+    flex: 1 1 45%;
+    max-width: 100%;
+  }
+  
+  .job-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+  }
+  
+  .job-details-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #333;
+  }
+  
+  /* Responsive layout for cards container */
+  .jobs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .job-card {
+      flex: 1 1 100%;
+    }
+  }
+  

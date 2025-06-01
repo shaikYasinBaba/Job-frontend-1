@@ -1,0 +1,196 @@
+.footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0px;
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .footer a {
+    color: #0073b1;
+    text-decoration: none;
+    margin: 0 6px;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  .clear-db-link {
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+  }
+  
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  
+  .popup-modal {
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    width: 320px;
+    max-width: 90%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    position: relative;
+    animation: popupIn 0.3s ease-out;
+  }
+  
+  @keyframes popupIn {
+    from { transform: scale(0.8); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+  }
+  
+  .popup-modal h3 {
+    margin-bottom: 15px;
+    color: #c0392b;
+    font-size: 1.2rem;
+  }
+  
+  .popup-modal label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  .popup-modal input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .btn.danger {
+    background-color: #e74c3c;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn {
+    background-color: #bdc3c7;
+    color: black;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .clear-db-link {
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+  }
+  
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .popup-modal {
+    background: white;
+    padding: 25px 30px;
+    border-radius: 10px;
+    width: 320px;
+    max-width: 90%;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    animation: popupIn 0.3s ease-out;
+  }
+  
+  @keyframes popupIn {
+    from { transform: scale(0.9); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+  }
+  
+  .popup-modal h3 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #c0392b;
+  }
+  
+  .popup-modal label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  .popup-modal input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .btn {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn.danger {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  .success-message {
+    font-size: 1.1rem;
+    color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .error-text {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  

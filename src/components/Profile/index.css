@@ -1,0 +1,180 @@
+/* Profile.css */
+
+.profile-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f5f7fa;
+    
+  }
+  .job-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  
+  .btn.secondary {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .new{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .new_1{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .job-card {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 12px;
+   
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .job-details-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .jobs-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .job-card {
+      flex: 1 1 100%;
+    }
+  }
+  
+  .profile-card {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+    transition: all 0.3s ease;
+  }
+  
+  .profile-title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+  
+  .role-badge {
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background-color: #3498db;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 0 auto 20px auto;
+  }
+  
+  .profile-info p {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  .multi-line {
+    white-space: pre-wrap;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 4px;
+  }
+  
+  .edit-form label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .edit-form input,
+  .edit-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .edit-form textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .profile-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+  
+  .btn {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .btn.primary {
+    background-color: #2ecc71;
+    color: white;
+  }
+  
+  .btn.primary:hover {
+    background-color: #27ae60;
+  }
+  
+  .btn.danger {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .btn.danger:hover {
+    background-color: #c0392b;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  .loading {
+    text-align: center;
+    padding: 100px;
+    font-size: 1.2rem;
+  }
+  

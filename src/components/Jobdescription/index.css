@@ -1,0 +1,39 @@
+.job-details {
+    padding: 10px;
+    max-width: 800px;
+    margin: auto;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 3rem;
+  }
+  
+  .job-details h2 {
+    margin-bottom: 20px;
+    color: #222;
+  }
+  
+  .job-details p {
+    margin: 10px 0;
+    font-size: 16px;
+    
+    border-radius: 10%;
+  }
+  
+  .apply-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .format{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .Jobdisc{
+    align-items: start;
+  }

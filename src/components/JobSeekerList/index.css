@@ -1,0 +1,40 @@
+.jobseeker-list-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .center {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .card-grid {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+   
+  }
+  
+  .jobseeker-card {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 12px;
+    width: 100%;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  

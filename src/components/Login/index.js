@@ -20,7 +20,7 @@ const Login = () => {
     e.preventDefault();
 
     const endpoint = mode === "login" ? "login" : "register";
-    const url = `http://localhost:5000/api/auth/${endpoint}`;
+    const url = `https://job-backend-fdm2.onrender.com/api/auth/${endpoint}`;
 
     const payload =
       mode === "register"

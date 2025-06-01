@@ -17,7 +17,7 @@ const Footer = () => {
     setErrorMsg("");
 
     try {
-      const res = await fetch("http://localhost:5000/api/admin/clear-db", {
+      const res = await fetch("https://job-backend-fdm2.onrender.com/api/admin/clear-db", {
         method: "DELETE",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData)

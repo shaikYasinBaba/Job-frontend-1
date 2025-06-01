@@ -61,7 +61,7 @@ const Profile = () => {
     }
 
     try {
-      const res = await fetch(`http://localhost:5000/api/users/${userId}`, {
+      const res = await fetch(`https://job-backend-fdm2.onrender.com/api/users/${userId}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(filteredData),
@@ -90,7 +90,7 @@ const Profile = () => {
     if (!confirmDelete) return;
   
     try {
-      const response = await fetch(`http://localhost:5000/api/jobs/${jobId}`, {
+      const response = await fetch(`https://job-backend-fdm2.onrender.com/api/jobs/${jobId}`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json"

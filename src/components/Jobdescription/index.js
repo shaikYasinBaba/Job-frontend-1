@@ -36,7 +36,7 @@ const JobDetails = ({ jobs }) => {
     
 
     try {
-      const res = await fetch(`http://localhost:5000/api/jobs/${id}/apply`, {
+      const res = await fetch(`https://job-backend-fdm2.onrender.com/api/jobs/${id}/apply`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ userId })

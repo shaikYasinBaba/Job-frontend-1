@@ -22,7 +22,7 @@ function App() {
   useEffect(() => {
     const fetchJobs = async () => {
       try {
-        const res = await fetch("http://localhost:5000/api/jobs");
+        const res = await fetch("https://job-backend-fdm2.onrender.com/api/jobs");
         if (!res.ok) {
           throw new Error(`Error: ${res.status} ${res.statusText}`);
         }

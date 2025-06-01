@@ -12,7 +12,7 @@ const JobApplicationsViewer = () => {
     const fetchApplicants = async () => {
       try {
         const userId = localStorage.getItem("userId");
-        const res = await fetch(`http://localhost:5000/api/jobs/${jobId}/applications?employerId=${userId}`);
+        const res = await fetch(`https://job-backend-fdm2.onrender.com/api/jobs/${jobId}/applications?employerId=${userId}`);
         if (!res.ok) throw new Error('Failed to load applications');
         const data = await res.json();
         setApplicants(data);
@@ -25,7 +25,7 @@ const JobApplicationsViewer = () => {
 
   const handleStatusChange = async (applicantId, newStatus, index) => {
     try {
-      const res = await fetch(`http://localhost:5000/api/jobs/${jobId}/applications/${applicantId}/status`, {
+      const res = await fetch(`https://job-backend-fdm2.onrender.com/api/jobs/${jobId}/applications/${applicantId}/status`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ status: newStatus }),

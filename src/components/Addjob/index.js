@@ -29,7 +29,7 @@ const AddJob = () => {
     }
 
     try {
-      const response = await axios.post('http://localhost:5000/api/jobs', {
+      const response = await axios.post('https://job-backend-fdm2.onrender.com/api/jobs', {
         employerId,
         ...formData
       });

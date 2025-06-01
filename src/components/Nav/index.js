@@ -13,7 +13,7 @@ const Navbar = () => {
     if (userId) {
       setIsLoggedIn(true);
 
-      fetch(`http://localhost:5000/api/users/${userId}`)
+      fetch(`https://job-backend-fdm2.onrender.com/api/users/${userId}`)
         .then((res) => res.json())
         .then((data) => {
           setUserRole(data.role);

@@ -10,7 +10,7 @@ const AppliedJobs = () => {
   useEffect(() => {
     const fetchAppliedJobs = async () => {
       try {
-        const res = await fetch(`http://localhost:5000/api/jobs/user/${userId}/applied-jobs`);
+        const res = await fetch(`https://job-backend-fdm2.onrender.com/api/jobs/user/${userId}/applied-jobs`);
         let data = await res.json();
         console.log(data)
         const filteredJobs = data.filter(job =>
